@@ -18,3 +18,6 @@ git branch -M main
 
 ## đẩy lên nhánh
 git push -u origin main
+
+## tạo nhánh mới
+git checkout -b [ten_nhanh]

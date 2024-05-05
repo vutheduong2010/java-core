@@ -1,0 +1,20 @@
+## Khởi tạo project
+git init
+
+## xem những file thay đổi
+git status
+
+## add file
+git add [...]
+
+## commit
+git commit -m [message]
+
+## cấu hình địa chỉ
+git remote add origin [url]
+
+## cấu hình nhánh
+git branch -M main
+
+## đẩy lên nhánh
+git push -u origin main

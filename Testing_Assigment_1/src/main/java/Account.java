@@ -7,6 +7,6 @@ public class Account {
     String username;
     String fullname;
     Department department;
-    Position position;
+    String position;
     LocalDate createDate;
 }

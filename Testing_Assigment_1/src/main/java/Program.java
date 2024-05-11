@@ -37,7 +37,7 @@ public class Program {
         Account1.username = "abc";
         Account1.fullname = "abc";
         Account1.department = department1;
-        Account1.position = position1;
+        Account1.position = "Finance";
         Account1.createDate = LocalDate.now();
 
         Account Account2 = new Account();
@@ -45,7 +45,7 @@ public class Program {
         Account2.username = "abcd";
         Account2.fullname = "abcd";
         Account2.department = department2;
-        Account2.position = position2;
+        Account2.position = "Dev";
         Account2.createDate = LocalDate.now();
 
         Account Account3 = new Account();
@@ -53,7 +53,7 @@ public class Program {
         Account3.username = "abcde";
         Account3.fullname = "abcde";
         Account3.department = department3;
-        Account3.position = position3;
+        Account3.position = "IT";
         Account3.createDate = LocalDate.now();
         System.out.println("Account1 = " + Account1);
 
